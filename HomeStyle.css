@@ -1,0 +1,87 @@
+﻿body {
+    margin: 0 0 0 0;
+}
+div>h4{
+    position:relative;
+    float:right;  
+    color:white;
+    margin-right:100px;
+    margin-top:20px;
+        
+}
+.main {
+        
+    //background-color:darkslategray;
+    position:absolute;
+    background-image:url(image/sky-earth.jpeg);
+    
+}
+#headerImg{
+    margin-left:100px;
+    margin-top:20px;
+}
+    /*main menu edit start*/
+div>ul{
+    color:white;
+    list-style-type:none;
+    float: right;
+    position:relative;
+    padding-bottom: 0;
+    margin-right:100px;
+    margin-left:50px;
+    margin-top:0;
+    
+    
+}
+    
+ul > li {
+    overflow: hidden;
+    display: inline;
+    
+}
+ul{
+    
+    margin-top:20px;
+    margin-right:20px;
+    background-color:antiquewhite;
+    overflow:hidden;
+     
+    
+}
+li{
+    boder-left:2px solid red;
+}
+li a {
+    text-decoration: none;
+    
+    background-color:peachpuff;
+    margin-right:10px;
+    font-size:20px;
+    
+    
+}
+
+li a:hover:not(.active){
+    background-color:cornflowerblue;
+    color:brown;
+}
+a:active{
+    background-color:aqua;
+}
+.active{
+    
+    background-color:aqua;
+}
+
+    /*main menu edit finish*/
+#largeImage{
+    position:absolute;
+    margin-top:175px;
+    image
+    
+}
+.middleText{
+    position:absolute;
+    margin-top:720px;
+    margin-left:200px;
+}
