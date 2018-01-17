@@ -1,6 +1,7 @@
 ﻿body {
     margin: 0 0 0 0;
 }
+
 div>h4{
     position:relative;
     float:right;  
@@ -13,25 +14,29 @@ div>h4{
         
     //background-color:darkslategray;
     position:absolute;
-    background-image:url(image/sky-earth.jpeg);
+    background-image:url(../image/sky-earth.jpeg);
+    width: 100%;
+    float:right;
     
 }
 #headerImg{
     margin-left:100px;
     margin-top:20px;
+
 }
     /*main menu edit start*/
 
 /*home Page style start*/
 div>ul{
-    color:white;
+    color:pink;
     list-style-type:none;
-    float: right;
-    position:relative;
+    text-align: right;
+    position:absolute;
     padding-bottom: 0;
-    margin-right:100px;
-    margin-left:50px;
+    margin-right:0px;
+    //margin-left:600px;
     margin-top:0;
+
     
     
 }
@@ -75,35 +80,4 @@ a:active{
     background-color:aqua;
 }
 
-    /*main menu edit finish*/
-#largeImage{
-    position:absolute;
-    margin-top:175px;
-    image
-    
-}
-.middleText{
-    position:absolute;
-    margin-top:720px;
-    margin-left:200px;
-}
-/*home Page style end*/
-/**/
-/*Restaurant Page style start*/
-/*Restaurant Page style end*/
-/**/
-/*Facilities Page style start*/
-/*Facilities Page style end*/
-/**/
-/*Rooms Page style start*/
-/*Rooms Page style end*/
-/**/
-/*Gallery Page style start*/
-/*Gallery Page style end*/
-/**/
-/*Running Page style start*/
-/*Running Page style end*/
-/**/
-/*Contact Page style start*/
-/*Contact Page style end*/
-/**/
+
